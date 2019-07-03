@@ -43,6 +43,7 @@ class HomeTab extends StatelessWidget {
                   return SliverToBoxAdapter(
                     child: Container(
                       height: 200,
+                      alignment: Alignment.center,
                       child: CircularProgressIndicator(
                         valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                       ),
